@@ -1,4 +1,3 @@
-# 陈彦伯 yanbo cHEN
+# Yanbo Chen（陈彦伯）
 ---
-### 一个演员
-热爱表演 大家好
+A second-year Ph.D. student from Wuhan University, supervised by Prof. Weiwei Liu.
