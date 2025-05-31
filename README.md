@@ -1,4 +1,4 @@
-# 👋 Hi! I'm Yanbo Chen
+# 👋 Hi! I'm Yanbo Chen (陈彦伯)
 
 A Ph.D. student at Wuhan University supervised by Prof. [Weiwei Liu](https://sites.google.com/site/weiweiliuhomepage/), majoring in machine learning theory.
 Prior to that, I obtained a Bachelor of Science degree from Wuhan University in 2020, majoring in Mathematics and Applied Mathematics.
