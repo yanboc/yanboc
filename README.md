@@ -3,7 +3,7 @@
 > Chen (陈) is my family name. 
 
 A Ph.D. student at Wuhan University supervised by Prof. [Weiwei Liu](https://sites.google.com/site/weiweiliuhomepage/), majoring in machine learning theory.
-Prior to that, I obtained a Bachelor of Science degree from Wuhan University in 2020, majoring in Mathematics and Applied Mathematics.
+Prior to that, I obtained a Bachelor of Science degree from Wuhan University in 2020, majoring in mathematics. 
 
 ## 🌟 Research & Projects
 
@@ -16,7 +16,7 @@ Prior to that, I obtained a Bachelor of Science degree from Wuhan University in 
 **I am also serving as**
 
 + Reviewers for NeurIPS, ICML, ICLR.
-+ Commiter of the [MindNLP](https://github.com/mindspore-lab/mindnlp) project.
++ Contributor of the [MindNLP](https://github.com/mindspore-lab/mindnlp) project.
 + A Huawei Ascend (Mindspore/Torch-NPU) developer.
 
 ## 📝 Publications
