@@ -1,6 +1,6 @@
 # 👋 Hi! I'm Chen Yanbo (陈彦伯)
 
-> Chen (陈) is my last name. 
+> Chen (陈) is my family name. 
 
 A Ph.D. student at Wuhan University supervised by Prof. [Weiwei Liu](https://sites.google.com/site/weiweiliuhomepage/), majoring in machine learning theory.
 Prior to that, I obtained a Bachelor of Science degree from Wuhan University in 2020, majoring in Mathematics and Applied Mathematics.
