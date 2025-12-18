@@ -41,7 +41,7 @@ Prior to that, I obtained a Bachelor of Science degree from Wuhan University in 
 📕 In case you know Mandarin 🤗 
 + 我平时主要在小红书冲浪，可以搜索用户名 **吃鱼的虎** 找到我。
 + （25年5月）我做了一个 [中文 LaTeX 简历模板](https://github.com/yanboc/LaTeX-CV-template-for-Wuhan-University)，有需要的朋友可以自取~
-+ （25年12月）我正在开发一个
++ （25年12月）我正在开发一个自动文献综述助手，希望能够基于几篇文章或关键词找到近几年顶会中的所有相关论文。
 
 ---
 
