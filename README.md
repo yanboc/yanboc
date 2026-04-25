@@ -1,6 +1,6 @@
 # 👋 Hi! I'm Chen Yanbo (陈彦伯)
 
-> Last updated: Dec 18, 2025.
+> Last updated: Apr 25, 2026.
 
 A Ph.D. student at Wuhan University supervised by Prof. [Weiwei Liu](https://sites.google.com/site/weiweiliuhomepage/), majoring in machine learning theory.
 Prior to that, I obtained a Bachelor of Science degree from Wuhan University in 2020, majoring in mathematics. 
@@ -23,7 +23,7 @@ Prior to that, I obtained a Bachelor of Science degree from Wuhan University in 
 
 **My Projects**
 
-1. A LaTeX CV template in mandarin chinese. [一个 LaTeX 中文简历模板](https://github.com/yanboc/LaTeX-CV-template-for-Wuhan-University). (Under maintenance)
+1. A LaTeX CV template in Mandarin Chinese. [一个 LaTeX 中文简历模板](https://github.com/yanboc/LaTeX-CV-template-for-Wuhan-University). (Under maintenance)
 2. [Qwen CLI UI](https://github.comdddd/yanboc/Qwen-CLI-UI): a UI for *Qwen CLI* (which is kind of like Gemini CLI and Claude Code). (Last update: Jul 25'. Maintenance is planned, but not now.)
 3. [Auto Literature Review](https://github.com/yanboc/auto-literature-review): an AI-powered tools for auto literature review. (Developing)
 
@@ -31,6 +31,8 @@ Prior to that, I obtained a Bachelor of Science degree from Wuhan University in 
 1. A Theory of Transfer-Based Black-Box Attacks, *Y. Chen and W. Liu*, **NeurIPS 2023** ([Link](https://proceedings.neurips.cc/paper_files/paper/2023/file/2d0842550e6d92b0e27e7e810b1a4792-Paper-Conference.pdf))
 
 2. Prevalence of simplex compression in adversarial deep neural networks, *Y. Cao\*, Y. Chen\*, and W. Liu*, **PNAS 2024** ([Link](https://www.pnas.org/doi/10.1073/pnas.2421593122))
+
+3. Two-Layer Convolutional Autoencoders Trained on Normal Data Provably Detect Unseen Anomalies, *Y. Chen and W. Liu*, **ICLR 2026** ([Link](https://iclr.cc/virtual/2026/poster/10010556))
 
 ## 📫 Get in Touch
 
