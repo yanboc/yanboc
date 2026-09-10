@@ -1,9 +1,43 @@
 # 👋 Hi! I'm Chen Yanbo (陈彦伯)
 
-> Last updated: Apr 25, 2026.
+> Last updated: Sep 10, 2026.
 
 A Ph.D. student at Wuhan University supervised by Prof. [Weiwei Liu](https://sites.google.com/site/weiweiliuhomepage/), majoring in machine learning theory.
 Prior to that, I obtained a Bachelor of Science degree from Wuhan University in 2020, majoring in mathematics. 
+
+<!-- PROFILE-HIGHLIGHT:START -->
+<div align="center">
+  <a href="#recent-highlights">
+    <img src="https://img.shields.io/badge/📌%20Recent%20Highlights-AI%20curated-0e75b6?style=for-the-badge" alt="Recent Highlights" />
+  </a>
+</div>
+
+<br />
+
+<table align="center" width="90%">
+  <tr>
+    <td bgcolor="#f6f8fa" style="border:1px solid #e1e4e8; border-radius:12px; padding:16px 20px;">
+      <p align="center">
+        <b>🤖 我的近期动态</b> <sub><i>— 由 AI 数字分身自动整理，每月更新</i></sub>
+      </p>
+      <ul>
+        <li>⚙️ <a href="https://github.com/yanboc/tokey">tokey</a> 推到 <b>v0.6.0</b>：新增密钥计费分类、Coding Agent 一键导入与控制台页。</li>
+        <li>📧 <a href="https://github.com/yanboc/daily-surf">daily-surf</a> 现在能自动生成今日日报与本周周报，并随邮件发出。</li>
+        <li>🔭 在维护 <a href="https://github.com/yanboc/Qwen-CLI-UI">Qwen-CLI-UI</a>（17⭐）与 <a href="https://github.com/yanboc/ezflt">ezflt</a>——一个轻量的 feature learning 库。</li>
+      </ul>
+      <details open>
+        <summary><b>🗞️ News</b> <sub><i>个人动态</i></sub></summary>
+        <ul>
+          <li>🎓 投稿了一篇 feature learning theory 的论文。</li>
+          <li>🛠️ <a href="https://github.com/yanboc/auto-literature-review">auto-literature-review</a> 新增关键词聚合能力。</li>
+        </ul>
+      </details>
+    </td>
+  </tr>
+</table>
+
+<br />
+<!-- PROFILE-HIGHLIGHT:END -->
 
 ## 🌟 Research & Projects
 
