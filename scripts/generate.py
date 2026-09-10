@@ -97,9 +97,11 @@ def build_prompt():
         Produce TWO fragments.
 
         Fragment 1 (CONTENT): a compact, first-person "recent activity" summary.
-        Use a small amount of inline HTML (an unordered list with links to the
-        repos). Highlight 2-4 concrete things: recent pushes, new projects,
-        maintenance, notable stars. Keep it short and honest.
+        Use GitHub-native HTML only (a plain unordered list with links to the
+        repos; no inline styles, no CSS classes, no images). For each repo you
+        mention, say what it is for and what problem it solves. Highlight 2-4
+        concrete things: recent pushes, new projects, maintenance. Keep it
+        short and honest.
 
         Fragment 2 (NEWS): turn the PERSONAL NEWS into 2-4 warm first-person
         bullet points. If NEWS is empty or "(none)", output a single line saying
