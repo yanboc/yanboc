@@ -16,21 +16,24 @@ Prior to that, I obtained a Bachelor of Science degree from Wuhan University in 
 
 <table align="center" width="90%">
   <tr>
-    <td bgcolor="#f6f8fa" style="border:1px solid #e1e4e8; border-radius:12px; padding:16px 20px;">
+    <td
+      bgcolor="#f6f8fa"
+      style="border:1px solid #e1e4e8; border-radius:12px; padding:16px 20px;">
       <p align="center">
         <b>🤖 我的近期动态</b> <sub><i>— 由 AI 数字分身自动整理，每月更新</i></sub>
       </p>
       <ul>
-        <li>⚙️ <a href="https://github.com/yanboc/tokey">tokey</a> 推到 <b>v0.6.0</b>：新增密钥计费分类、Coding Agent 一键导入与控制台页。</li>
-        <li>📧 <a href="https://github.com/yanboc/daily-surf">daily-surf</a> 现在能自动生成今日日报与本周周报，并随邮件发出。</li>
-        <li>🔭 在维护 <a href="https://github.com/yanboc/Qwen-CLI-UI">Qwen-CLI-UI</a>（17⭐）与 <a href="https://github.com/yanboc/ezflt">ezflt</a>——一个轻量的 feature learning 库。</li>
-      </ul>
+  <li>Shipped the automated profile highlight system on <a href="https://github.com/yanboc/yanboc">yanboc</a> today — workflow, scripts, data, templates.</li>
+  <li><a href="https://github.com/yanboc/tokey">tokey</a> v0.6.0: key billing categories, one-click Coding Agent import, console page.</li>
+  <li><a href="https://github.com/yanboc/daily-surf">daily-surf</a> now generates daily and weekly reports, with the weekly attached to the email.</li>
+  <li>Still tinkering with <a href="https://github.com/yanboc/Qwen-CLI-UI">Qwen-CLI-UI</a> (17 stars) and <a href="https://github.com/yanboc/wasd">wasd</a>.</li>
+  <li>Starred a lot of agent tooling lately: OpenSpec, playwright-mcp, nanoMCP, and captum.</li>
+</ul>
       <details open>
         <summary><b>🗞️ News</b> <sub><i>个人动态</i></sub></summary>
         <ul>
-          <li>🎓 投稿了一篇 feature learning theory 的论文。</li>
-          <li>🛠️ <a href="https://github.com/yanboc/auto-literature-review">auto-literature-review</a> 新增关键词聚合能力。</li>
-        </ul>
+  <li>Nothing new to report this month.</li>
+</ul>
       </details>
     </td>
   </tr>
