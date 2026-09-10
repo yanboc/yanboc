@@ -6,40 +6,22 @@ A Ph.D. student at Wuhan University supervised by Prof. [Weiwei Liu](https://sit
 Prior to that, I obtained a Bachelor of Science degree from Wuhan University in 2020, majoring in mathematics. 
 
 <!-- PROFILE-HIGHLIGHT:START -->
-<div align="center">
-  <a href="#recent-highlights">
-    <img src="https://img.shields.io/badge/📌%20Recent%20Highlights-AI%20curated-0e75b6?style=for-the-badge" alt="Recent Highlights" />
-  </a>
-</div>
+<h3 id="recent-highlights">📌 Recent Highlights</h3>
+<p><sub><i>由 AI 数字分身自动整理，每月更新</i></sub></p>
 
-<br />
-
-<table align="center" width="90%">
-  <tr>
-    <td
-      bgcolor="#f6f8fa"
-      style="border:1px solid #e1e4e8; border-radius:12px; padding:16px 20px;">
-      <p align="center">
-        <b>🤖 我的近期动态</b> <sub><i>— 由 AI 数字分身自动整理，每月更新</i></sub>
-      </p>
-      <ul>
-  <li>Shipped the automated profile highlight system on <a href="https://github.com/yanboc/yanboc">yanboc</a> today — workflow, scripts, data, templates.</li>
-  <li><a href="https://github.com/yanboc/tokey">tokey</a> v0.6.0: key billing categories, one-click Coding Agent import, console page.</li>
-  <li><a href="https://github.com/yanboc/daily-surf">daily-surf</a> now generates daily and weekly reports, with the weekly attached to the email.</li>
-  <li>Still tinkering with <a href="https://github.com/yanboc/Qwen-CLI-UI">Qwen-CLI-UI</a> (17 stars) and <a href="https://github.com/yanboc/wasd">wasd</a>.</li>
-  <li>Starred a lot of agent tooling lately: OpenSpec, playwright-mcp, nanoMCP, and captum.</li>
+<ul>
+  <li><a href="https://github.com/yanboc/tokey">tokey</a> — a key/cost tracking tool for LLM providers. v0.6.0 adds billing categories, one-click Coding Agent import, and a console page.</li>
+  <li><a href="https://github.com/yanboc/daily-surf">daily-surf</a> — generates my daily and weekly digests, and now mails the weekly along with the daily.</li>
+  <li><a href="https://github.com/yanboc/Qwen-CLI-UI">Qwen-CLI-UI</a> — a responsive web UI so I can drive Qwen-Code from any device; README refreshed this week.</li>
+  <li><a href="https://github.com/yanboc/yanboc">yanboc</a> — this profile. Rewrote it around two rules: AI for fun, and create to understand.</li>
 </ul>
-      <details open>
-        <summary><b>🗞️ News</b> <sub><i>个人动态</i></sub></summary>
-        <ul>
+
+<details open>
+  <summary><b>🗞️ News</b> <sub><i>个人动态</i></sub></summary>
+  <ul>
   <li>Nothing new to report this month.</li>
 </ul>
-      </details>
-    </td>
-  </tr>
-</table>
-
-<br />
+</details>
 <!-- PROFILE-HIGHLIGHT:END -->
 
 ## 🌟 Research & Projects
