@@ -18,9 +18,8 @@ For now, I do some vibe coding & research *just for fun*.
 ---
 
 Like everyone else, I did some research, wrote some papers, worked on some projects (mostly open-source ones I found myself), and eventually got my Ph.D. and landed a day job that pays the bills. 
-Given that I've graduated and rolled out of academia, I must declare: I don't actually like the topics I used to work on — *they're not my "research interests"*. 
-A résumé or a list of skills might be more specific.
-I've hidden them for now rather than deleted them, because that's all I've got at the moment😅. Hopefully one day I can delete them. 
+Given that I've graduated and rolled out of academia, I must declare: I don't actually like the topics I used to work on — *they're not my "research interests"* — a résumé or a list of skills might be more specific.
+I've hidden these messages for now, and may just delete them in the near future.
 
 <details>
   <summary> <h2>🌟 Research & Projects</h2> </summary>
