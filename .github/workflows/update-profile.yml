@@ -2,8 +2,8 @@ name: Update Profile
 
 on:
   schedule:
-    # 每月 1 号 00:00 UTC（北京时间 08:00）
-    - cron: "0 0 1 * *"
+    # 每周日 12:23 UTC（北京时间周日 20:23）
+    - cron: "23 12 * * 0"
   workflow_dispatch:
 
 permissions:

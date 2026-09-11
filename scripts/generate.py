@@ -7,7 +7,7 @@ Reads:
   - data/cache/repos.json      GitHub repos
   - data/cache/commits.json    recent commits
   - data/cache/stars.json      recently starred repos
-  - templates/highlight.html   the HTML shell with {{CONTENT}} / {{NEWS}} slots
+  - templates/highlight.html   the HTML shell with a {{CONTENT}} slot
 
 Writes the fully-rendered section to data/cache/highlight.html.
 """
@@ -94,31 +94,22 @@ def build_prompt():
         {news or "(none)"}
 
         === TASK ===
-        Produce TWO fragments.
-
-        Fragment 1 (CONTENT): a compact, first-person "recent activity" summary.
-        Use GitHub-native HTML only (a plain unordered list with links to the
-        repos; no inline styles, no CSS classes, no images). For each repo you
-        mention, say what it is for and what problem it solves. Highlight 2-4
-        concrete things: recent pushes, new projects, maintenance. Keep it
-        short and honest.
-
-        Fragment 2 (NEWS): turn the PERSONAL NEWS into 2-4 warm first-person
-        bullet points. If NEWS is empty or "(none)", output a single line saying
-        you have nothing new to report this month.
+        Produce ONE fragment (CONTENT): a short first-person narrative of my
+        recent activity, written as 1-2 natural prose paragraphs (HTML <p>
+        tags), in the same tone as the rest of my profile README. Weave in
+        2-4 concrete things: recent pushes, new projects, maintenance — for
+        each repo, say what it is for and what problem it solves, linking to
+        it. If PERSONAL NEWS has content, work it naturally into the
+        narrative; if it is empty or "(none)", just don't mention news.
+        NO bullet lists — flowing prose only, GitHub-native HTML (p, a, b, i;
+        no inline styles, no CSS classes, no images). Keep it short and
+        honest.
 
         Output format — output exactly this, nothing else, no code fences:
 
         <!-- CONTENT:START -->
-        <ul>
-          <li>...</li>
-        </ul>
+        <p>...</p>
         <!-- CONTENT:END -->
-        <!-- NEWS:START -->
-        <ul>
-          <li>...</li>
-        </ul>
-        <!-- NEWS:END -->
         """
     )
 
@@ -166,13 +157,12 @@ def main():
     raw = call_llm(persona, prompt)
 
     content = _extract(raw, "CONTENT")
-    news = _extract(raw, "NEWS")
 
     template = _read(TEMPLATE_PATH)
-    if "{{CONTENT}}" not in template or "{{NEWS}}" not in template:
-        raise RuntimeError("template missing {{CONTENT}} or {{NEWS}} placeholder")
+    if "{{CONTENT}}" not in template:
+        raise RuntimeError("template missing {{CONTENT}} placeholder")
 
-    html = template.replace("{{CONTENT}}", content).replace("{{NEWS}}", news)
+    html = template.replace("{{CONTENT}}", content)
 
     os.makedirs(os.path.dirname(OUT_PATH), exist_ok=True)
     with open(OUT_PATH, "w", encoding="utf-8") as f:

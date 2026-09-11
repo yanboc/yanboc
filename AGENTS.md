@@ -6,22 +6,22 @@
 
 这是一个 **GitHub 主页（同名 profile 仓库）的自动更新系统**：
 
-- 用一个 **GitHub Actions 定时工作流**（每月 1 号）抓取 GitHub 数据 + 主人手写的 News 素材；
-- 用一个 **AI 数字分身人格**（基于 DeepSeek 大模型）把数据改写成第一人称、有口吻的 HTML 条目；
-- 把结果渲染进 `README.md` 顶部的一个 **HTML 栏目**（GitHub 原生风格：标题 + 列表 + 折叠 News，不用自定义样式）。
+- 用一个 **GitHub Actions 定时工作流**（每周日晚）抓取 GitHub 数据 + 主人手写的 News 素材；
+- 用一个 **AI 数字分身人格**（基于 DeepSeek 大模型）把数据改写成第一人称、有口吻的 HTML 段落；
+- 把结果渲染进 `README.md` 顶部的一个 **HTML 栏目**（GitHub 原生风格：标题 + 自然语言段落，不用列表、不用自定义样式）。
 
 ## 2. 架构线路图
 
 ```mermaid
 flowchart LR
-    Sched["schedule 每月1号<br/>或 workflow_dispatch 手动"] --> Chk[Checkout]
+    Sched["schedule 每周日晚<br/>或 workflow_dispatch 手动"] --> Chk[Checkout]
     Chk --> Fetch["② fetch_data.py<br/>抓 GitHub API"]
     Fetch --> Cache["data/cache/*.json<br/>repos / commits / stars"]
     Persona["data/persona.md<br/>AI 人格设定"] --> Gen["③ generate.py<br/>调 DeepSeek"]
     News["data/news.md<br/>手写动态"] --> Gen
     Cache --> Gen
     Gen --> Html["data/cache/highlight.html"]
-    Tmpl["templates/highlight.html<br/>卡片模板"] --> Gen
+    Tmpl["templates/highlight.html<br/>栏目模板"] --> Gen
     Html --> Render["④ render.py<br/>写回 README"]
     Render --> Readme["README.md 标记区"]
     Readme --> Push["git commit + push"]
@@ -44,7 +44,7 @@ yanboc/
 │   ├── persona.md                   # AI 数字分身人格（系统提示词）
 │   └── cache/                       # 抓取 + 生成缓存（已被 gitignore，勿提交）
 └── templates/
-    └── highlight.html               # 高亮卡片模板，含 {{CONTENT}} / {{NEWS}} 槽位
+    └── highlight.html               # 高亮栏目模板，含 {{CONTENT}} 槽位
 ```
 
 ## 4. README.md 里的标记区（关键，勿手改）
@@ -69,17 +69,17 @@ yanboc/
 - 模型：`deepseek-chat`
 - 鉴权：`DEEPSEEK_API_KEY`（存在 GitHub Secrets，见 §7）
 
-AI 只做一件事：把「仓库数据 + 手写 news」改写成有人格味道的 HTML **条目**。它**不会主动上网、不会自动发现主人的动态**——所有事实信息必须由以下两个输入端提供：
+AI 只做一件事：把「仓库数据 + 手写 news」改写成有人格味道的 HTML **段落**。它**不会主动上网、不会自动发现主人的动态**——所有事实信息必须由以下两个输入端提供：
 
 | 输入端 | 谁维护 | 用在哪 |
 |--------|--------|--------|
-| GitHub API 数据（repos/commits/stars） | 自动抓取 | 「近期项目」栏目 |
-| `data/news.md` | **主人手工写** | 「News」栏目（AI 只负责润色） |
+| GitHub API 数据（repos/commits/stars） | 自动抓取 | 「近期动态」栏目 |
+| `data/news.md` | **主人手工写** | 揉进同一段叙述（AI 只负责润色） |
 
 ## 6. 数据流四步
 
 1. **Fetch** `scripts/fetch_data.py` —— 调 GitHub REST API，抓仓库（过滤 fork）、Top 8 仓库的最新 commit、最近 star 的 20 个仓库；写 `data/cache/*.json`。**网络失败自动回退读缓存**，保证 workflow 不崩。
-2. **Generate** `scripts/generate.py` —— 数据摘要 + `news.md` 拼成 prompt，连同 `persona.md` 发 DeepSeek，要求只输出两个带标记的 HTML 片段（`CONTENT` / `NEWS`），再填进 `templates/highlight.html` 的槽位，产出 `data/cache/highlight.html`。
+2. **Generate** `scripts/generate.py` —— 数据摘要 + `news.md` 拼成 prompt，连同 `persona.md` 发 DeepSeek，要求只输出一个带标记的 HTML 片段（`CONTENT`，1-2 段自然语言散文），填进 `templates/highlight.html` 的槽位，产出 `data/cache/highlight.html`。
 3. **Render** `scripts/render.py` —— 用正则替换 `README.md` 标记区内容，并更新顶部 `> Last updated: ...` 日期。
 4. **Push** —— `git commit + push`。
 
@@ -99,10 +99,10 @@ DEEPSEEK_API_KEY='sk-xxxx' python3 scripts/generate.py
 
 两种方式，任选：
 
-- 自动：工作流每月 1 号 00:00 UTC（北京时间 08:00）跑；
+- 自动：工作流每周日 12:23 UTC（北京时间周日 20:23）跑；
 - 手动：GitHub 仓库页 → Actions → Update Profile → Run workflow。
 
-主人想让主页有新的 News 时：**先编辑 `data/news.md`，再手动触发一次**即可。
+主人想让主页有新的动态时：**先编辑 `data/news.md`，再手动触发一次**即可（news 会被 AI 揉进叙述段落）。
 
 ## 9. 本地运行完整链路
 
@@ -125,7 +125,7 @@ python3 scripts/render.py
 
 - ✅ 改个人动态：编辑 `data/news.md`（每行一条，最新在上，中英文皆可）。
 - ✅ 调整人格：编辑 `data/persona.md`（system prompt，英文）。
-- ✅ 调整卡片样式：编辑 `templates/highlight.html`（注意保留 `{{CONTENT}}` / `{{NEWS}}` 槽位）。
+- ✅ 调整栏目样式：编辑 `templates/highlight.html`（注意保留 `{{CONTENT}}` 槽位）。
 - ✅ 改抓取逻辑/频率：编辑 `scripts/` 与 `.github/workflows/update-profile.yml`。
 - ❌ **不要手工编辑 README 标记区内部**的内容。
 - ❌ **不要在 README 标记区之外插入会被下一次渲染破坏的结构**。
