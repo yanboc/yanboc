@@ -1,6 +1,6 @@
 # 👋 Hi! I'm Chen Yanbo (陈彦伯)
 
-> Last updated: Sep 10, 2026.
+> Last updated: Sep 11, 2026.
 
 An AI engineer at a not-so-punk manufacturing company. I obtained my bachelor's and doctoral degrees from Wuhan University (proud of my always-trending alma mater😇) — I first studied mathematics for 2~3 years, then jumped ship to CS for my doctorate (supervised by Prof. [Weiwei Liu](https://sites.google.com/site/weiweiliuhomepage/), who is now at Fudan), focusing mainly on machine learning theory (partly for fun, partly to get that *** Ph.D.). Thankfully, nowadays AI has basically sent learning theory flying, and research is no longer my main gig. 
 
@@ -11,13 +11,8 @@ For now, I do some vibe coding & research *just for fun*.
 
 <p><sub><i>由 AI 数字分身自动整理，每周更新</i></sub></p>
 
-<ul>
-  <li><a href="https://github.com/yanboc/tokey">tokey</a> — a key/cost tracking tool for LLM providers. v0.6.0 adds billing categories, one-click Coding Agent import, and a console page.</li>
-  <li><a href="https://github.com/yanboc/daily-surf">daily-surf</a> — generates my daily and weekly digests, and now mails the weekly along with the daily.</li>
-  <li><a href="https://github.com/yanboc/Qwen-CLI-UI">Qwen-CLI-UI</a> — a responsive web UI so I can drive Qwen-Code from any device; README refreshed this week.</li>
-  <li><a href="https://github.com/yanboc/yanboc">yanboc</a> — this profile. Rewrote it around two rules: AI for fun, and create to understand.</li>
-</ul>
-
+<p>Most of this week went into <a href="https://github.com/yanboc/tokey">tokey</a>, a little TypeScript thing that keeps my API keys and their billing straight. Version 0.6.0 adds cost categories per key, one-click import from coding agents, and a console page — I narrowed the window too, because a tool that only fits one screen is a tool I actually open. Alongside it, <a href="https://github.com/yanboc/daily-surf">daily-surf</a> now writes both a daily and a weekly report, and mails the weekly one along with the daily so I stop reading the same summary twice.</p>
+<p>On the research side, <a href="https://github.com/yanboc/ezflt">ezflt</a> is a small Python library for feature learning theory — my attempt to make the experiments in that area less of a copy-paste ritual. <a href="https://github.com/yanboc/Qwen-CLI-UI">Qwen-CLI-UI</a> got a README rewrite; it gives Qwen-Code a responsive web interface so you can do AI-assisted programming from whatever device is nearest. And <a href="https://github.com/yanboc/yanboc">this profile</a> is now generated from a weekly schedule on Sunday evening, with prose instead of lists and a single place to put the content.</p>
 <!-- PROFILE-HIGHLIGHT:END -->
 
 ---
