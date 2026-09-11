@@ -9,10 +9,10 @@ For now, I do some vibe coding & research *just for fun*.
 <!-- PROFILE-HIGHLIGHT:START -->
 <h2 id="recent-highlights">📌 Recent Highlights</h2>
 
-<p><sub><i>由 AI 数字分身自动整理，每周更新</i></sub></p>
+<p><sub><i>Auto-curated by my AI persona, updated weekly</i></sub></p>
 
-<p>Most of this week went into <a href="https://github.com/yanboc/tokey">tokey</a>, a little TypeScript thing that keeps my API keys and their billing straight. Version 0.6.0 adds cost categories per key, one-click import from coding agents, and a console page — I narrowed the window too, because a tool that only fits one screen is a tool I actually open. Alongside it, <a href="https://github.com/yanboc/daily-surf">daily-surf</a> now writes both a daily and a weekly report, and mails the weekly one along with the daily so I stop reading the same summary twice.</p>
-<p>On the research side, <a href="https://github.com/yanboc/ezflt">ezflt</a> is a small Python library for feature learning theory — my attempt to make the experiments in that area less of a copy-paste ritual. <a href="https://github.com/yanboc/Qwen-CLI-UI">Qwen-CLI-UI</a> got a README rewrite; it gives Qwen-Code a responsive web interface so you can do AI-assisted programming from whatever device is nearest. And <a href="https://github.com/yanboc/yanboc">this profile</a> is now generated from a weekly schedule on Sunday evening, with prose instead of lists and a single place to put the content.</p>
+<p>Most of my recent energy went into <a href="https://github.com/yanboc/tokey">tokey</a>, a TypeScript tool for managing API keys — v0.6.0 landed with key-billing categories, one-click import from coding agents, a console page, and a slightly narrower window. It exists because juggling keys across providers should not require a spreadsheet and a prayer.</p>
+<p>Alongside it, <a href="https://github.com/yanboc/daily-surf">daily-surf</a> now generates both a daily report and a weekly one, and quietly attaches the weekly to the email; <a href="https://github.com/yanboc/Qwen-CLI-UI">Qwen-CLI-UI</a> keeps offering a responsive web face for Qwen-Code so I can code from whatever device is nearest; and <a href="https://github.com/yanboc/wasd">wasd</a> got its README renamed to match the project. Small moves, but the kind that make a tool feel like mine.</p>
 <!-- PROFILE-HIGHLIGHT:END -->
 
 ---
