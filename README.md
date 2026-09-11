@@ -2,12 +2,14 @@
 
 > Last updated: Sep 10, 2026.
 
-A Ph.D. student at Wuhan University supervised by Prof. [Weiwei Liu](https://sites.google.com/site/weiweiliuhomepage/), majoring in machine learning theory.
-Prior to that, I obtained a Bachelor of Science degree from Wuhan University in 2020, majoring in mathematics. 
+An AI engineer at a not-so-punk manufacturing company. I obtained my bachelor's and doctoral degrees from Wuhan University (proud of my always-trending alma mater😇) — I first studied mathematics for 2~3 years, then jumped ship to CS for my doctorate (supervised by Prof. [Weiwei Liu](https://sites.google.com/site/weiweiliuhomepage/), who is now at Fudan), focusing mainly on machine learning theory (partly for fun, partly to get that *** Ph.D.). Thankfully, nowadays AI has basically sent learning theory flying, and research is no longer my main gig. 
+
+For now, I do some vibe coding & research *just for fun*.
 
 <!-- PROFILE-HIGHLIGHT:START -->
-<h3 id="recent-highlights">📌 Recent Highlights</h3>
-<p><sub><i>由 AI 数字分身自动整理，每月更新</i></sub></p>
+<h2 id="recent-highlights">📌 Recent Highlights</h2>
+
+<p><sub><i>由 AI 数字分身自动整理，每周更新</i></sub></p>
 
 <ul>
   <li><a href="https://github.com/yanboc/tokey">tokey</a> — a key/cost tracking tool for LLM providers. v0.6.0 adds billing categories, one-click Coding Agent import, and a console page.</li>
@@ -16,15 +18,18 @@ Prior to that, I obtained a Bachelor of Science degree from Wuhan University in 
   <li><a href="https://github.com/yanboc/yanboc">yanboc</a> — this profile. Rewrote it around two rules: AI for fun, and create to understand.</li>
 </ul>
 
-<details open>
-  <summary><b>🗞️ News</b> <sub><i>个人动态</i></sub></summary>
-  <ul>
-  <li>Nothing new to report this month.</li>
-</ul>
-</details>
 <!-- PROFILE-HIGHLIGHT:END -->
 
-## 🌟 Research & Projects
+---
+
+Like everyone else, I did some research, wrote some papers, worked on some projects (mostly open-source ones I found myself), and eventually got my Ph.D. and landed a day job that pays the bills. 
+Given that I've graduated and rolled out of academia, I must declare: I don't actually like the topics I used to work on — *they're not my "research interests"*. 
+A résumé or a list of skills might be more specific.
+I've hidden them for now rather than deleted them, because that's all I've got at the moment😅. Hopefully one day I can delete them. 
+
+<details>
+  <summary> <h2>🌟 Research & Projects</h2> </summary>
+  <ul>
 
 **My research experience includes**
 
@@ -53,16 +58,28 @@ Prior to that, I obtained a Bachelor of Science degree from Wuhan University in 
 
 3. Two-Layer Convolutional Autoencoders Trained on Normal Data Provably Detect Unseen Anomalies, *Y. Chen and W. Liu*, **ICLR 2026** ([Link](https://iclr.cc/virtual/2026/poster/10010556))
 
-## 📫 Get in Touch
+</ul>
+</details>
+
+<details open>
+
+<summary> <h2>📫 Get in Touch</h2> </summary>
 
 📧 Email 
-+ yanboch [at] 126 [dot] com (國內, preferred)
+
++ **yanboch [at] 126 [dot] com (國內, preferred)**
 + yanbo [dot] acad [at] gmail [dot] com (Academic)
++ joyc981785 [at] gmail [dot] com (Personal)
++ chenyanbo [a] whu [dot] edu [dot] cn (School)
+
+As a typical ENFP, having several email addresses is perfectly normal. 
+All of them now auto-forward to my preferred inbox (at 126.com), but I still list them all here, since some platforms may not have updated their records yet.
 
 📕 In case you know Mandarin 🤗 
-+ 我平时主要在小红书冲浪，可以搜索用户名 **吃鱼的虎** 找到我。
-+ （25年5月）我做了一个 [中文 LaTeX 简历模板](https://github.com/yanboc/LaTeX-CV-template-for-Wuhan-University)，有需要的朋友可以自取~
-+ （25年12月）我正在开发一个自动文献综述助手，希望能够基于几篇文章或关键词找到近几年顶会中的所有相关论文。
++ 我平时主要在小红书冲浪，可以搜索小红书号 **boshikage** 找到我。这个 id 取自 Kira Yoshikage，**并非拼音**（恼
++ 可以通过 **jodyblue** 找到我的微信，麻烦注明来意
+
+</details>
 
 ---
 
