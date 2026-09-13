@@ -29,9 +29,9 @@ I've hidden these messages for now, and may just delete them in the near future.
 
 + 2020 - 2023: Trustworthy Machine Learning. Relevant research issues include *adversarial robustness* and *black-box attacks*.
 
-+ 2023 - Present: Feature Learning Theory. Developing theoretical frameworks for understanding how neural networks (of different structures) extract useful features (w.r.t. different tasks) from data (of varying distributions). **I am currently writing a review paper on feature learning theory, and my thesis will also revolve around this topic.**
++ 2023 - 2026: Feature Learning Theory. Developing theoretical frameworks for understanding how neural networks (of different structures) extract useful features (w.r.t. different tasks) from data (of varying distributions). **I am currently writing a review paper on feature learning theory, and my thesis will also revolve around this topic.**
 
-+ 2024 - Present: LLM Alignment. Focusing on investigating the defense and attack mechanisms of adversarial attacks (jailbreaking), backdoor attacks & data poisoning (harmful fine-tuning) during the post-training and inference phases. I am also interested in inference acceleration and distributed AI systems.
++ 2024 - 2026: LLM Alignment. Focusing on investigating the defense and attack mechanisms of adversarial attacks (jailbreaking), backdoor attacks & data poisoning (harmful fine-tuning) during the post-training and inference phases. I am also interested in inference acceleration and distributed AI systems.
 
 **I am also serving as**
 
@@ -39,13 +39,7 @@ I've hidden these messages for now, and may just delete them in the near future.
 + Contributor of the [MindNLP](https://github.com/mindspore-lab/mindnlp) and [AI Infra](https://github.com/yanboc/AIInfra).
 + A Huawei Ascend (Mindspore/Torch-NPU) developer.
 
-**My Projects**
-
-1. A LaTeX CV template in Mandarin Chinese. [一个 LaTeX 中文简历模板](https://github.com/yanboc/LaTeX-CV-template-for-Wuhan-University). (Under maintenance)
-2. [Qwen CLI UI](https://github.comdddd/yanboc/Qwen-CLI-UI): a UI for *Qwen CLI* (which is kind of like Gemini CLI and Claude Code). (Last update: Jul 25'. Maintenance is planned, but not now.)
-3. [Auto Literature Review](https://github.com/yanboc/auto-literature-review): an AI-powered tools for auto literature review. (Developing)
-
-## 📝 Publications
+## 📝 Publications (as a Ph.D. student)
 1. A Theory of Transfer-Based Black-Box Attacks, *Y. Chen and W. Liu*, **NeurIPS 2023** ([Link](https://proceedings.neurips.cc/paper_files/paper/2023/file/2d0842550e6d92b0e27e7e810b1a4792-Paper-Conference.pdf))
 
 2. Prevalence of simplex compression in adversarial deep neural networks, *Y. Cao\*, Y. Chen\*, and W. Liu*, **PNAS 2024** ([Link](https://www.pnas.org/doi/10.1073/pnas.2421593122))
