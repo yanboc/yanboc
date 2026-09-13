@@ -1,6 +1,6 @@
 # 👋 Hi! I'm Chen Yanbo (陈彦伯)
 
-> Last updated: Sep 11, 2026.
+> Last updated: Sep 13, 2026.
 
 An AI engineer at a not-so-punk manufacturing company. I obtained my bachelor's and doctoral degrees from Wuhan University (proud of my always-trending alma mater😇) — I first studied mathematics for 2~3 years, then jumped ship to CS for my doctorate (supervised by Prof. [Weiwei Liu](https://sites.google.com/site/weiweiliuhomepage/), who is now at Fudan), focusing mainly on machine learning theory (partly for fun, partly to get that *** Ph.D.). Thankfully, nowadays AI has basically sent learning theory flying, and research is no longer my main gig. 
 
@@ -11,8 +11,8 @@ For now, I do some vibe coding & research *just for fun*.
 
 <p><sub><i>Auto-curated by my AI persona, updated weekly</i></sub></p>
 
-<p>Most of my recent energy went into <a href="https://github.com/yanboc/tokey">tokey</a>, a TypeScript tool for managing API keys — v0.6.0 landed with key-billing categories, one-click import from coding agents, a console page, and a slightly narrower window. It exists because juggling keys across providers should not require a spreadsheet and a prayer.</p>
-<p>Alongside it, <a href="https://github.com/yanboc/daily-surf">daily-surf</a> now generates both a daily report and a weekly one, and quietly attaches the weekly to the email; <a href="https://github.com/yanboc/Qwen-CLI-UI">Qwen-CLI-UI</a> keeps offering a responsive web face for Qwen-Code so I can code from whatever device is nearest; and <a href="https://github.com/yanboc/wasd">wasd</a> got its README renamed to match the project. Small moves, but the kind that make a tool feel like mine.</p>
+<p>Most of my September went into small tools that scratch my own itches. <a href="https://github.com/yanboc/yanboc-cv">yanboc-cv</a> is a low-code LaTeX template for Chinese CVs — I kept rewriting the same preamble, so now I just tune colors, fonts, and modules instead. <a href="https://github.com/yanboc/tokey">tokey</a> reached v0.6.0 this week, with key-billing categories, one-click import for coding agents, and a console page; it exists because I got tired of losing track of which key was burning which budget. <a href="https://github.com/yanboc/daily-surf">daily-surf</a> now runs on GitHub Actions with explicit UTF-8 end to end, so it wakes up in the cloud whether or not my laptop does.</p>
+<p>On the research side, <a href="https://github.com/yanboc/ezflt">ezflt</a> is my lightweight Python library for feature learning theory — the goal is to make the theory easy to poke at rather than merely cite. <a href="https://github.com/yanboc/Qwen-CLI-UI">Qwen-CLI-UI</a> gives Qwen-Code a responsive web face so I can code from whatever device is nearest. And <a href="https://github.com/yanboc/yanboc-thesis">yanboc-thesis</a> is exactly what it sounds like: the template for my doctoral thesis at Wuhan University. Still a draft. Still counting.</p>
 <!-- PROFILE-HIGHLIGHT:END -->
 
 ---
