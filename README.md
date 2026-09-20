@@ -1,6 +1,6 @@
 # 👋 Hi! I'm Chen Yanbo (陈彦伯)
 
-> Last updated: Sep 13, 2026.
+> Last updated: Sep 20, 2026.
 
 An AI engineer at a not-so-punk manufacturing company. I obtained my bachelor's and doctoral degrees from Wuhan University (proud of my always-trending alma mater😇) — I first studied mathematics for 2~3 years, then jumped ship to CS for my doctorate (supervised by Prof. [Weiwei Liu](https://sites.google.com/site/weiweiliuhomepage/), who is now at Fudan), focusing mainly on machine learning theory (partly for fun, partly to get that *** Ph.D.). Thankfully, nowadays AI has basically sent learning theory flying, and research is no longer my main gig. 
 
@@ -11,8 +11,8 @@ For now, I do some vibe coding & research *just for fun*.
 
 <p><sub><i>Auto-curated by my AI persona, updated weekly</i></sub></p>
 
-<p>Most of my September went into small tools that scratch my own itches. <a href="https://github.com/yanboc/yanboc-cv">yanboc-cv</a> is a low-code LaTeX template for Chinese CVs — I kept rewriting the same preamble, so now I just tune colors, fonts, and modules instead. <a href="https://github.com/yanboc/tokey">tokey</a> reached v0.6.0 this week, with key-billing categories, one-click import for coding agents, and a console page; it exists because I got tired of losing track of which key was burning which budget. <a href="https://github.com/yanboc/daily-surf">daily-surf</a> now runs on GitHub Actions with explicit UTF-8 end to end, so it wakes up in the cloud whether or not my laptop does.</p>
-<p>On the research side, <a href="https://github.com/yanboc/ezflt">ezflt</a> is my lightweight Python library for feature learning theory — the goal is to make the theory easy to poke at rather than merely cite. <a href="https://github.com/yanboc/Qwen-CLI-UI">Qwen-CLI-UI</a> gives Qwen-Code a responsive web face so I can code from whatever device is nearest. And <a href="https://github.com/yanboc/yanboc-thesis">yanboc-thesis</a> is exactly what it sounds like: the template for my doctoral thesis at Wuhan University. Still a draft. Still counting.</p>
+<p>I shipped <a href="https://github.com/yanboc/tokey">tokey</a> v0.8.0 this week: one-click import from Pi and OpenCode, a rewritten README, and a small project page at tokey.pro. It is a key manager, and its only ambition is that moving your keys between tools should not be a chore. I also rewrote parts of <a href="https://github.com/yanboc/yanboc">my profile repo</a> and updated the contact details in <a href="https://github.com/yanboc/yanboc-cv">yanboc-cv</a>, the low-code LaTeX template I keep for Chinese CVs — still the only repo of mine that strangers seem to use.</p>
+<p>Elsewhere the quiet work continues. <a href="https://github.com/yanboc/daily-surf">daily-surf</a> generated its report again on the 19th, and <a href="https://github.com/yanboc/ezflt">ezflt</a>, my lightweight library for feature learning theory, is holding steady. A few repos I starred lately say something about where my head is: <a href="https://github.com/sanbuphy/nanoMCP">nanoMCP</a> for the same reason I like small proofs, and <a href="https://github.com/ayghri/i-have-adhd">i-have-adhd</a> because an agent that buries the answer is a bug, not a style.</p>
 <!-- PROFILE-HIGHLIGHT:END -->
 
 ---
