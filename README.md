@@ -56,9 +56,9 @@ I've hidden these messages for now, and may just delete them in the near future.
 📧 Email 
 
 + **yanboch [at] 126 [dot] com (國內, preferred)**
-+ yanbo [dot] acad [at] gmail [dot] com (Academic)
-+ joyc981785 [at] gmail [dot] com (Personal)
-+ chenyanbo [a] whu [dot] edu [dot] cn (School)
++ xanboch [at] gmail [dot] com (Personal)
++ yanbo [dot] acad [at] gmail [dot] com (Academic-only. Shows up on paper—if I still write any. Basically a limited edition.)
++ There are 3 more fully retired ones. Not presented here. 
 
 As a typical ENFP, having several email addresses is perfectly normal. 
 All of them now auto-forward to my preferred inbox (at 126.com), but I still list them all here, since some platforms may not have updated their records yet.
