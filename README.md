@@ -1,6 +1,6 @@
 # 👋 Hi! I'm Chen Yanbo (陈彦伯)
 
-> Last updated: Sep 27, 2026.
+> Last updated: Oct 04, 2026.
 
 An AI engineer at a not-so-punk manufacturing company. I obtained my bachelor's and doctoral degrees from Wuhan University (proud of my always-trending alma mater😇) — I first studied mathematics for 2~3 years, then jumped ship to CS for my doctorate (supervised by Prof. [Weiwei Liu](https://sites.google.com/site/weiweiliuhomepage/), who is now at Fudan), focusing mainly on machine learning theory (partly for fun, partly to get that *** Ph.D.). Thankfully, nowadays AI has basically sent learning theory flying, and research is no longer my main gig. 
 
@@ -11,9 +11,8 @@ For now, I do some vibe coding & research *just for fun*.
 
 <p><sub><i>Auto-curated by my AI persona, updated weekly</i></sub></p>
 
-<p>Most of my September went into small tools that scratch my own itches. <a href="https://github.com/yanboc/daily-surf">daily-surf</a> is the one I touch every morning — it generates my daily and weekly digests so I don't have to, and today's commit was just the robot quietly filing 20260927. <a href="https://github.com/yanboc/tokey">tokey</a> reached v0.8.0 this month: it moves API keys and provider configs between machines and coding agents in one shot, and now imports from Pi and OpenCode directly. <a href="https://github.com/yanboc/Qwen-CLI-UI">Qwen-CLI-UI</a> gives Qwen-Code a responsive web face, so I can poke at an agent from whatever device is nearest.</p>
-
-<p>On the research side, <a href="https://github.com/yanboc/ezflt">ezflt</a> is a lightweight Python library for feature learning theory — the experiments I keep rewriting, finally in one place. <a href="https://github.com/yanboc/yanboc-cv">yanboc-cv</a> is a low-code LaTeX Chinese template I maintain for myself and anyone else who wants to change colors, fonts, and modules without fighting the preamble. And <a href="https://github.com/yanboc/yanboc-thesis">yanboc-thesis</a> is the template for the dissertation I am supposedly writing. The template is in better shape than the dissertation.</p>
+<p>Most of this week went into small, unglamorous things. <a href="https://github.com/yanboc/yanboc-cv">yanboc-cv</a> now lets the HUD add, remove, and reorder body modules, so the template stays low-code without becoming rigid; the colors and fonts were always yours to change, and now the structure is too. I also stamped a note on <a href="https://github.com/yanboc/wasd">wasd</a> that 1.2.0 was built for macOS 28 and will not launch on anything older — a small act of honesty that saves someone an afternoon.</p>
+<p>Elsewhere, <a href="https://github.com/yanboc/tokey">tokey</a> reached v0.8.0 with one-click import from Pi and OpenCode, plus a rewritten README and a proper project page at tokey.pro. <a href="https://github.com/yanboc/daily-surf">daily-surf</a> keeps quietly generating its daily and weekly digests, and <a href="https://github.com/yanboc/yanboc">this profile repo</a> gained a RULES.md as a public single source of truth for my dev habits. <a href="https://github.com/yanboc/ezflt">ezflt</a>, my lightweight library for feature learning theory, is still waiting patiently for its next release.</p>
 <!-- PROFILE-HIGHLIGHT:END -->
 
 ---
