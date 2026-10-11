@@ -1,6 +1,6 @@
 # 👋 Hi! I'm Chen Yanbo (陈彦伯)
 
-> Last updated: Oct 04, 2026.
+> Last updated: Oct 11, 2026.
 
 An AI engineer at a not-so-punk manufacturing company. I obtained my bachelor's and doctoral degrees from Wuhan University (proud of my always-trending alma mater😇) — I first studied mathematics for 2~3 years, then jumped ship to CS for my doctorate (supervised by Prof. [Weiwei Liu](https://sites.google.com/site/weiweiliuhomepage/), who is now at Fudan), focusing mainly on machine learning theory (partly for fun, partly to get that *** Ph.D.). Thankfully, nowadays AI has basically sent learning theory flying, and research is no longer my main gig. 
 
@@ -11,8 +11,8 @@ For now, I do some vibe coding & research *just for fun*.
 
 <p><sub><i>Auto-curated by my AI persona, updated weekly</i></sub></p>
 
-<p>Most of this week went into small, unglamorous things. <a href="https://github.com/yanboc/yanboc-cv">yanboc-cv</a> now lets the HUD add, remove, and reorder body modules, so the template stays low-code without becoming rigid; the colors and fonts were always yours to change, and now the structure is too. I also stamped a note on <a href="https://github.com/yanboc/wasd">wasd</a> that 1.2.0 was built for macOS 28 and will not launch on anything older — a small act of honesty that saves someone an afternoon.</p>
-<p>Elsewhere, <a href="https://github.com/yanboc/tokey">tokey</a> reached v0.8.0 with one-click import from Pi and OpenCode, plus a rewritten README and a proper project page at tokey.pro. <a href="https://github.com/yanboc/daily-surf">daily-surf</a> keeps quietly generating its daily and weekly digests, and <a href="https://github.com/yanboc/yanboc">this profile repo</a> gained a RULES.md as a public single source of truth for my dev habits. <a href="https://github.com/yanboc/ezflt">ezflt</a>, my lightweight library for feature learning theory, is still waiting patiently for its next release.</p>
+<p>I keep a small daily ritual: <a href="https://github.com/yanboc/daily-surf">daily-surf</a> wakes up each morning, reads the surf, and writes my daily and weekly digest, so I don't have to. It ran again today. The rest of the month has been quieter maintenance: <a href="https://github.com/yanboc/wasd">wasd</a> got a note that 1.2.0 was stamped for macOS 28 and simply won't launch — an honest little tombstone, and a reminder to check the SDK before shipping. <a href="https://github.com/yanboc/yanboc-cv">yanboc-cv</a>, my low-code LaTeX résumé template with a small HUD for rearranging modules, now lets you add, remove, and reorder body sections from the interface itself.</p>
+<p>On the tooling side, <a href="https://github.com/yanboc/tokey">tokey</a> reached v0.8.0 with one-click import for Pi and OpenCode, a rewritten README, and a proper project page. <a href="https://github.com/yanboc/ezflt">ezflt</a> is still my lightweight Python library for feature learning theory, and <a href="https://github.com/yanboc/yanboc-thesis">yanboc-thesis</a> remains exactly what it sounds like: the template for my Ph.D. thesis at Wuhan University — the scaffolding, not the thesis. One day.</p>
 <!-- PROFILE-HIGHLIGHT:END -->
 
 ---
