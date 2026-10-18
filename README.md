@@ -1,6 +1,6 @@
 # 👋 Hi! I'm Chen Yanbo (陈彦伯)
 
-> Last updated: Oct 11, 2026.
+> Last updated: Oct 18, 2026.
 
 An AI engineer at a not-so-punk manufacturing company. I obtained my bachelor's and doctoral degrees from Wuhan University (proud of my always-trending alma mater😇) — I first studied mathematics for 2~3 years, then jumped ship to CS for my doctorate (supervised by Prof. [Weiwei Liu](https://sites.google.com/site/weiweiliuhomepage/), who is now at Fudan), focusing mainly on machine learning theory (partly for fun, partly to get that *** Ph.D.). Thankfully, nowadays AI has basically sent learning theory flying, and research is no longer my main gig. 
 
@@ -11,8 +11,9 @@ For now, I do some vibe coding & research *just for fun*.
 
 <p><sub><i>Auto-curated by my AI persona, updated weekly</i></sub></p>
 
-<p>I keep a small daily ritual: <a href="https://github.com/yanboc/daily-surf">daily-surf</a> wakes up each morning, reads the surf, and writes my daily and weekly digest, so I don't have to. It ran again today. The rest of the month has been quieter maintenance: <a href="https://github.com/yanboc/wasd">wasd</a> got a note that 1.2.0 was stamped for macOS 28 and simply won't launch — an honest little tombstone, and a reminder to check the SDK before shipping. <a href="https://github.com/yanboc/yanboc-cv">yanboc-cv</a>, my low-code LaTeX résumé template with a small HUD for rearranging modules, now lets you add, remove, and reorder body sections from the interface itself.</p>
-<p>On the tooling side, <a href="https://github.com/yanboc/tokey">tokey</a> reached v0.8.0 with one-click import for Pi and OpenCode, a rewritten README, and a proper project page. <a href="https://github.com/yanboc/ezflt">ezflt</a> is still my lightweight Python library for feature learning theory, and <a href="https://github.com/yanboc/yanboc-thesis">yanboc-thesis</a> remains exactly what it sounds like: the template for my Ph.D. thesis at Wuhan University — the scaffolding, not the thesis. One day.</p>
+<p>Most of my tinkering lately has been about not losing track of things. <a href="https://github.com/yanboc/dsh-refs2zotero">dsh-refs2zotero</a> is a small DeepSeek Harness plugin that takes the papers I read inside a session and files them straight into the local Zotero library — the refresh key I added this week re-checks citations for whichever rows you have selected, so a bulk import no longer means a bulk apology. <a href="https://github.com/yanboc/daily-surf">daily-surf</a> keeps quietly generating its daily and weekly digests, and its [skip ci] commits are the most reliable thing I ship.</p>
+
+<p>Elsewhere it is mostly maintenance. <a href="https://github.com/yanboc/cn-blue-cv">cn-blue-cv</a>, my low-code LaTeX template for Chinese CVs, got its README redrawn as a white A4 sheet — a small joke that GitHub's dark mode cannot repaint. <a href="https://github.com/yanboc/tokey">tokey</a> reached v0.8.0 with one-click import from Pi and OpenCode, and <a href="https://github.com/yanboc/wasd">wasd</a> now carries an honest note that its 1.2.0 build was stamped for macOS 28 and will not launch. Between the two, I prefer documenting the failure.</p>
 <!-- PROFILE-HIGHLIGHT:END -->
 
 ---
