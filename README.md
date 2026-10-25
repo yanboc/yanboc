@@ -1,6 +1,6 @@
 # 👋 Hi! I'm Chen Yanbo (陈彦伯)
 
-> Last updated: Oct 18, 2026.
+> Last updated: Oct 25, 2026.
 
 An AI engineer at a not-so-punk manufacturing company. I obtained my bachelor's and doctoral degrees from Wuhan University (proud of my always-trending alma mater😇) — I first studied mathematics for 2~3 years, then jumped ship to CS for my doctorate (supervised by Prof. [Weiwei Liu](https://sites.google.com/site/weiweiliuhomepage/), who is now at Fudan), focusing mainly on machine learning theory (partly for fun, partly to get that *** Ph.D.). Thankfully, nowadays AI has basically sent learning theory flying, and research is no longer my main gig. 
 
@@ -11,9 +11,8 @@ For now, I do some vibe coding & research *just for fun*.
 
 <p><sub><i>Auto-curated by my AI persona, updated weekly</i></sub></p>
 
-<p>Most of my tinkering lately has been about not losing track of things. <a href="https://github.com/yanboc/dsh-refs2zotero">dsh-refs2zotero</a> is a small DeepSeek Harness plugin that takes the papers I read inside a session and files them straight into the local Zotero library — the refresh key I added this week re-checks citations for whichever rows you have selected, so a bulk import no longer means a bulk apology. <a href="https://github.com/yanboc/daily-surf">daily-surf</a> keeps quietly generating its daily and weekly digests, and its [skip ci] commits are the most reliable thing I ship.</p>
-
-<p>Elsewhere it is mostly maintenance. <a href="https://github.com/yanboc/cn-blue-cv">cn-blue-cv</a>, my low-code LaTeX template for Chinese CVs, got its README redrawn as a white A4 sheet — a small joke that GitHub's dark mode cannot repaint. <a href="https://github.com/yanboc/tokey">tokey</a> reached v0.8.0 with one-click import from Pi and OpenCode, and <a href="https://github.com/yanboc/wasd">wasd</a> now carries an honest note that its 1.2.0 build was stamped for macOS 28 and will not launch. Between the two, I prefer documenting the failure.</p>
+<p>Most of this month went into small tools that scratch my own itches. <a href="https://github.com/yanboc/dsh-refs2zotero">dsh-refs2zotero</a> is a DeepSeek Harness plugin that takes the references I stumble on during a session and files them straight into the Zotero on my own machine — the latest push adds a refresh button in the toolbar so I can re-query metadata for whichever rows I have selected. <a href="https://github.com/yanboc/cn-blue-cv">cn-blue-cv</a> is my low-code LaTeX résumé template for Chinese, with colors, fonts and sections you can swap without touching the class file; this round I made the README render as a white A4 sheet that GitHub can't restyle under it.</p>
+<p>Elsewhere, <a href="https://github.com/yanboc/tokey">tokey</a> reached v0.8.0 with one-click import from Pi and OpenCode, a rewritten README, and a project page at tokey.pro. <a href="https://github.com/yanboc/wasd">wasd</a> got an honest note in its docs: the 1.2.0 build was stamped for macOS 28 and simply will not launch. And <a href="https://github.com/yanboc/ezflt">ezflt</a>, my small Python library for feature learning theory, keeps ticking along quietly — which is how I like it.</p>
 <!-- PROFILE-HIGHLIGHT:END -->
 
 ---
