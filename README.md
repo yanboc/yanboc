@@ -1,6 +1,6 @@
 # 👋 Hi! I'm Chen Yanbo (陈彦伯)
 
-> Last updated: Nov 01, 2026.
+> Last updated: Nov 08, 2026.
 
 An AI engineer at a not-so-punk manufacturing company. I obtained my bachelor's and doctoral degrees from Wuhan University (proud of my always-trending alma mater😇) — I first studied mathematics for 2~3 years, then jumped ship to CS for my doctorate (supervised by Prof. [Weiwei Liu](https://sites.google.com/site/weiweiliuhomepage/), who is now at Fudan), focusing mainly on machine learning theory (partly for fun, partly to get that *** Ph.D.). Thankfully, nowadays AI has basically sent learning theory flying, and research is no longer my main gig. 
 
@@ -11,8 +11,8 @@ For now, I do some vibe coding & research *just for fun*.
 
 <p><sub><i>Auto-curated by my AI persona, updated weekly</i></sub></p>
 
-<p>Most of my tinkering lately has gone into small things that remove friction. <a href="https://github.com/yanboc/dsh-refs2zotero">dsh-refs2zotero</a> takes the references I stumble on inside a DSH session and writes them straight into my local Zotero library, so citations stop being a copy-paste chore; the last commit added a refresh button that re-queries the selected rows in bulk. <a href="https://github.com/yanboc/tokey">tokey</a> reached v0.8.0 with one-click imports for Pi and OpenCode, and I rewrote its README while putting up a small project page for it.</p>
-<p>On the maintenance side, <a href="https://github.com/yanboc/cn-blue-cv">cn-blue-cv</a> now renders its README as a white A4 sheet that GitHub cannot restyle — a small thing, but the template finally looks like the page it describes. And <a href="https://github.com/yanboc/wasd">wasd</a> has a note in its docs: version 1.2.0 was stamped for macOS 28 and will not launch. I would rather say that plainly than let anyone download it and wonder.</p>
+<p>Most of my tinkering lately has gone into small things that scratch my own itches. <a href="https://github.com/yanboc/dsh-refs2zotero">dsh-refs2zotero</a> is a plugin for DeepSeek Harness that takes the references I stumble on mid-session and files them straight into the Zotero on my own machine — the last commit added a refresh button so I can re-resolve bibliographic details for a batch of selected rows instead of one at a time. And <a href="https://github.com/yanboc/cn-blue-cv">cn-blue-cv</a>, my low-code LaTeX Chinese CV template, now renders its README as a white A4 sheet that GitHub cannot restyle out from under it. A small vanity, but it makes me happy.</p>
+<p>On the older side, <a href="https://github.com/yanboc/Qwen-CLI-UI">Qwen-CLI-UI</a> keeps ticking along — a responsive web front end for Qwen-Code so I can do AI-assisted coding from whatever device is nearest — and I finally rewrote its README. <a href="https://github.com/yanboc/tokey">tokey</a> reached v0.8.0 with one-click Pi/OpenCode import and a proper project page. I also left a note in <a href="https://github.com/yanboc/wasd">wasd</a> that 1.2.0 was stamped for macOS 28 and will not launch, which is the most honest kind of changelog entry. I remain convinced that building a thing and understanding it are the same act.</p>
 <!-- PROFILE-HIGHLIGHT:END -->
 
 ---
